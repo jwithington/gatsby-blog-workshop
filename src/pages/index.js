@@ -20,6 +20,7 @@ const IndexPage = () => {
         src="http://www.jimwithington.com/images/avatar.jpg"
         width={200}
       />
+      <br />
       <Link to="/about">Go to the About Page</Link>
     </main>
   );
