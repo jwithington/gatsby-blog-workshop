@@ -18,6 +18,7 @@ const IndexPage = () => {
       <StaticImage
         alt="white man in pink hoodie in front of a brick wall"
         src="http://www.jimwithington.com/images/avatar.jpg"
+        width={200}
       />
       <Link to="/about">Go to the About Page</Link>
     </main>
