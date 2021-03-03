@@ -1,11 +1,13 @@
 import React from 'react'
 
 import { title } from "./layout.module.css";
+import Header from "../header"
 
 const Layout = ({ children }) => {
   return (
     <div>
-      <h1 className={title}>This is a page title</h1>
+      <p><Header /></p>
+      <h1 className={title}>This is a page title from the layout component</h1>
       {children}
     </div>
   );
