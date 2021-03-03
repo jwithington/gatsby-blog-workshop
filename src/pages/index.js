@@ -1,4 +1,5 @@
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 
 const IndexPage = () => {
@@ -14,11 +15,13 @@ const IndexPage = () => {
         </span>
       </h1>
       <p>Hi there it's Jim</p>
-      <Link to='/about'>
-        Go to the About Page
-      </Link>
+      <StaticImage
+        alt="white man in pink hoodie in front of a brick wall"
+        src="http://www.jimwithington.com/images/avatar.jpg"
+      />
+      <Link to="/about">Go to the About Page</Link>
     </main>
-  )
+  );
 }
 
 export default IndexPage
